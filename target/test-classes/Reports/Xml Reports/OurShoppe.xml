@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="26.804597">
-<testcase classname="To add the product to cart in a OurShoppe shopping website" name="To verify the user can login to shopping website" time="18.753556">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="36.628599">
+<testcase classname="To add the product to cart in a OurShoppe shopping website" name="To verify the user can login to shopping website" time="22.979075">
 <system-out><![CDATA[Given user has to open the url of the web page..............................passed
 When user enters "renuviji13@gmail.com" and "Renu@123"......................passed
 Then click login button.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To add the product to cart in a OurShoppe shopping website" name="To verify the user can search the product in search page" time="3.008729">
+<testcase classname="To add the product to cart in a OurShoppe shopping website" name="To verify the user can search the product in search page" time="4.933641">
 <system-out><![CDATA[Given user has to login to the web page.....................................passed
 When user has to search for "Iphone 11".....................................passed
 Then click enter to search the desired product..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To add the product to cart in a OurShoppe shopping website" name="To verify the product is added to cart" time="5.042312">
+<testcase classname="To add the product to cart in a OurShoppe shopping website" name="To verify the product is added to cart" time="8.715883">
 <system-out><![CDATA[Given user has to select and click the desired product......................passed
 When user has to click on add to cart.......................................passed
 And user has to complete the purchase.......................................passed
