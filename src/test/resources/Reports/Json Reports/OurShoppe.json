@@ -1,0 +1,257 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1037600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "To verify the user can login to shopping website",
+        "description": "",
+        "id": "to-add-the-product-to-cart-in-a-ourshoppe-shopping-website;to-verify-the-user-can-login-to-shopping-website;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 92400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19251585600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has to open the url of the web page",
+            "match": {
+              "location": "StepdefinitionClass.user_has_to_open_the_url_of_the_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3719045800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"renuviji13@gmail.com\" and \"Renu@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"renuviji13@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Renu@123\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepdefinitionClass.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3689400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click login button",
+            "match": {
+              "location": "StepdefinitionClass.click_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 143600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To verify the user can search the product in search page",
+        "description": "",
+        "id": "to-add-the-product-to-cart-in-a-ourshoppe-shopping-website;to-verify-the-user-can-search-the-product-in-search-page",
+        "after": [
+          {
+            "result": {
+              "duration": 23700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9456700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user has to login to the web page",
+            "match": {
+              "location": "StepdefinitionClass.user_has_to_login_to_the_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4914532900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user has to search for \"Iphone 11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Iphone 11\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepdefinitionClass.user_has_to_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9199400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click enter to search the desired product",
+            "match": {
+              "location": "StepdefinitionClass.click_enter_to_search_the_desired_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 52500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To verify the product is added to cart",
+        "description": "",
+        "id": "to-add-the-product-to-cart-in-a-ourshoppe-shopping-website;to-verify-the-product-is-added-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 25900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2444262500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user has to select and click the desired product",
+            "match": {
+              "location": "StepdefinitionClass.user_has_to_select_and_click_the_desired_product()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70330700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has to click on add to cart",
+            "match": {
+              "location": "StepdefinitionClass.user_has_to_click_on_add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1936065700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user has to complete the purchase",
+            "match": {
+              "location": "StepdefinitionClass.user_has_to_complete_the_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207582500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user has to enter the address details Select Emirate Select Area,Street Address",
+            "match": {
+              "location": "StepdefinitionClass.user_has_to_enter_the_address_details_Select_Emirate_Select_Area_Street_Address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4057365200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "place the order",
+            "match": {
+              "location": "StepdefinitionClass.place_the_order()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To add the product to cart in a OurShoppe shopping website",
+    "description": "",
+    "id": "to-add-the-product-to-cart-in-a-ourshoppe-shopping-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature Files/Ecommerce.feature",
+    "tags": []
+  }
+]
