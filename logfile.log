@@ -1,0 +1,11 @@
+[main] INFO  org.reusablecode.BaseClass  -User is opening the browser and website
+[main] INFO  org.reusablecode.BaseClass  -User is entering the username and password
+[main] INFO  org.reusablecode.BaseClass  -User clicked the login button
+[main] INFO  org.reusablecode.BaseClass  -Displaying the url
+[main] INFO  org.reusablecode.BaseClass  -User is searching for product
+[main] INFO  org.reusablecode.BaseClass  -Page title and page url displayed
+[main] INFO  org.reusablecode.BaseClass  -User has selected the product succcessfully
+[main] INFO  org.reusablecode.BaseClass  -User clicked on the add cart button
+[main] INFO  org.reusablecode.BaseClass  -User added the prooduct to cart successfully
+[main] INFO  org.reusablecode.BaseClass  -User selected the address
+[main] INFO  org.reusablecode.BaseClass  -User placed the order successfully

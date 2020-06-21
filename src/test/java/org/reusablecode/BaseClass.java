@@ -1,5 +1,8 @@
 package org.reusablecode;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.loginfo.Log4jPropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,6 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class BaseClass {
 	public static WebDriver driver;
+	public static Logger log=Logger.getLogger(BaseClass.class);
 	static Select s;
 	Actions a;
 
@@ -41,5 +45,9 @@ public class BaseClass {
 	public static void closeBrowser() {
 		driver.quit();
 
+	}
+	public static void property() {
+		PropertyConfigurator.configure("log4j.properties");
+	
 	}
 }
